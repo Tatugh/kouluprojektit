@@ -1,0 +1,89 @@
+body {
+  background-color: #eaeaea; /* taustan väri */
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+div.container {
+  color:#3c3c3c; /* teksti väri */
+  width: 100%;
+  border: 4px solid #ababab;
+  border-radius: 11px;
+  box-shadow: 10px 10px 5px #404040;
+  height:349.5px;
+
+}
+
+header{
+  font-family: arial;
+  background-color: #00b4f9; /* <-- ison palkin väri */
+  color: white;
+  text-align: center;
+  padding: 1em;
+  clear: left;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+nav {
+  font-family: arial;
+  float: left;
+  max-width: 160px;
+  background-color: #ddd;
+  padding: 1em;
+  height: 230px;
+  border-bottom-left-radius: 5px;
+}
+
+ul {
+  font-family: arial;
+}
+
+
+nav li {
+  padding: 10px 0px 0px 0px;
+}
+
+article {
+  height: 50px;
+  padding: 1em;
+  font-family: arial;
+  text-align: center;
+  margin-right: 170px;
+}
+
+div.box1 {
+  margin: 10px auto;
+  font-family: arial;
+  background-color: #eaeaea;
+  color: #3c3c3c;
+	text-align: center;
+  border: 4px solid #ababab;
+  border-radius: 11px;
+  box-shadow: 10px 10px 5px #404040;
+  width: 500px;
+  height: 550px;
+}
+
+p.divTeksti {
+  color: #3c3c3c;
+}
+
+footer {
+  padding: 1em;
+  color: white;
+  background-color:#00b4f9;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  margin-top: 395px;
+
+}
